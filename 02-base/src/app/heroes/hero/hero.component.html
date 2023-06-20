@@ -1,0 +1,22 @@
+<h1>Mondkey D. Luffy</h1>
+
+<dl>
+  <td>Nome:</td>
+  <dd>{{ name }}</dd>
+
+  <td>Idade:</td>
+  <dd>{{ age }}</dd>
+
+  <td>Metodo:</td>
+  <dd>{{ getHeroDescription() }}</dd>
+
+  <td>Capitalizado:</td>
+  <dd>{{ capitalizeName }}</dd>
+</dl>
+
+<button class="btn btn-primary mx-2" type="button" (click)="changeNameHero()">
+  Mudar nome
+</button>
+<button class="btn btn-primary" type="button" (click)="changeAgeHero()">
+  Mudar idade
+</button>
