@@ -23,4 +23,10 @@ export class HeroComponent {
   changeAgeHero(): void {
     this.age = 28;
   }
+
+  reset(): void {
+    this.age = 25;
+    // this.name = 'son goku';
+    document.querySelector('h1')!.innerHTML = '<h1>From Angular</h1>';
+  }
 }
