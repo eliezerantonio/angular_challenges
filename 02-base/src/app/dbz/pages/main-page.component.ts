@@ -25,4 +25,13 @@ export class MainPageComponent {
       power: 1000,
     },
   ];
+
+  public onNewCharacter(character: Character): void {
+    this.characteres.push(character);
+  }
+
+  public onDelete(index: number): void {
+    console.log('maim page');
+    this.characteres.splice(index);
+  }
 }
