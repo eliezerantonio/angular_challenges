@@ -1,4 +1,25 @@
-    <ul class="list-group">
-      <li class="list-group-item">krillin-500</li>
-      <li class="list-group-item">Goku-10.000</li>
-    </ul>
+<ul class="list-group">
+  <li
+    *ngFor="
+      let character of characteresList;
+      let i = index;
+      let isFirst = first;
+      let isLast = last;
+      let isEven = even
+    "
+    class="list-group-item"
+    [ngClass]="{
+      ' list-group-item-dark': isLast,
+      'list-group-item-primary': isEven
+    }"
+  >
+    <span class="text-primary"> {{ i + 1 }}. - </span>
+    <span> {{ character.name }} - </span>
+
+    <strong>Power: </strong>
+
+    <span> {{ character.power }}</span>
+
+    <span>É o primeiro:{{ isFirst }}</span> <span>É o ultimo:{{ isLast }}</span>
+  </li>
+</ul>
