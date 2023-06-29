@@ -3,15 +3,17 @@
 <hr />
 
 <div class="row">
-  
   <div class="col">
-    <dbz-list [characteresList]="characteres" (onDelete)="onDelete($event)"></dbz-list>
+    <dbz-list
+      [characteresList]="dbzService.characteres"
+      (onDelete)="dbzService.onDelete($event)"
+    ></dbz-list>
     <h4>Listado</h4>
   </div>
 
   <div class="col">
     <add-dbz-character
-      (onNewCharacter)="onNewCharacter($event)"
+      (onNewCharacter)="dbzService.onNewCharacter($event)"
     ></add-dbz-character>
   </div>
 </div>
