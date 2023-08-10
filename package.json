@@ -1,0 +1,15 @@
+{
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-emoji-conventional"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-emoji": "^1.0.2",
+    "cz-emoji-conventional": "^1.0.1"
+  },
+  "dependencies": {}
+}
