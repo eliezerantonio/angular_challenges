@@ -10,10 +10,9 @@ export class SearchBoxComponent {
   public placeholder: string = '';
 
   @Output()
-  public onvalue = new EventEmitter<string>();
+  public onValue = new EventEmitter<string>();
 
   emitValue(value: string): void {
-    this.onvalue.emit(value);
-
+    this.onValue.emit(value);
   }
 }
