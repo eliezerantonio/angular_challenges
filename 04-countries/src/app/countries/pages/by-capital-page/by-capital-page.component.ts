@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ContriesService } from '../../services/countries.service';
+import { CountriesService } from '../../services/countries.service';
 import { Country } from '../../interfaces/country';
 
 @Component({
@@ -9,7 +9,7 @@ import { Country } from '../../interfaces/country';
 })
 export class ByCapitalPageComponent {
   public countries: Country[] = [];
-  constructor(private countriesService: ContriesService) {}
+  constructor(private countriesService: CountriesService) {}
 
   searchByCapital(term: string): void {
     this.countriesService.searchCapital(term).subscribe((countries) => {
