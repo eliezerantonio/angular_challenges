@@ -4,6 +4,8 @@
     <mat-card-subtitle>{{ hero.alter_ego }}</mat-card-subtitle>
   </mat-card-header>
 
+  <img [src]="hero | heroImage" [alt]="hero.superhero" />
+
   <mat-card-content class="mt-2">
     <h4>{{ hero.publisher }}</h4>
 
@@ -27,8 +29,6 @@
     >
       <mat-icon>edit</mat-icon>Editar
     </button>
-
-  
 
     <button
       mat-button
