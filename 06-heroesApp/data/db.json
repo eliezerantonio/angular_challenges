@@ -166,6 +166,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "Gqwze1j",
+      "superhero": "Eliezer",
+      "publisher": "DC Comics",
+      "alter_ego": "Developer",
+      "first_appearance": "121",
+      "characters": "eliezer",
+      "alt_img": "https://images.immediate.co.uk/production/volatile/sites/3/2023/03/goku-dragon-ball-guru-824x490-11b2006.jpg"
+    },
+    {
+      "id": "x8lujds",
+      "superhero": "Luffy",
+      "publisher": "DC Comics",
+      "alter_ego": "D",
+      "first_appearance": "1997",
+      "characters": "borracha",
+      "alt_img": "https://i.pinimg.com/736x/64/d2/04/64d204d9ed341a467c630dde5e1cd704.jpg"
     }
   ]
 }
